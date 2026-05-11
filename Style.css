@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #001f4d, #800000);
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: white;
+    margin-top: 40px;
+}
+
+form {
+    width: 320px;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 25px;
+    margin: 20px auto;
+    border-radius: 12px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+label {
+    font-size: 16px;
+    color: white;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    background: rgba(255,255,255,0.7);
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e64a19;
+}
+.index-page {
+    background: linear-gradient(to right, #5c73c7, #a8c0ff);
+    min-height: 100vh;
+}
+
+.register-page {
+    background: linear-gradient(to right, #8e0e00, #1f1c18);
+    min-height: 100vh;
+}
+.home-page {
+    background: linear-gradient(to right, #b7ff00, #de2273);
+    min-height: 100vh;
+}
+
+
